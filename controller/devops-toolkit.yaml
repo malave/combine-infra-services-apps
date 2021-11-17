@@ -13,7 +13,7 @@ spec:
     targetRevision: HEAD
   destination:
     namespace: production
-    server: https://1.2.3.4
+    server: https://app.127.0.0.1.nip.io
   syncPolicy:
     automated:
       selfHeal: true
